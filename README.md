@@ -1,3 +1,3 @@
 # burger
 
-The purpose of this project is to demonstrate the usage of the handlebars NPM in connection with data manipulation in mysql. The webpage is created dynamically from the data recieved from the database using handlebars.
+The purpose of this project is to demonstrate the usage of the handlebars NPM in connection with data manipulation in mysql. The webpage is created dynamically from the data recieved from the database using the handlebars NPM. The burger information is stored in a table with the name of the burger and whether or not it has been devoured. Clicking on the "EAT THE BURGER" or "DEVOURED" button changes the value of on the table, then the page is reloaded with the new information re-requested from the database. The "DELETE!" button removes the burger from the database by the id number of the burger which was automatically applied on burger creation. The "Add a Burger" form creates a new burger with the inputs provided from the user.
